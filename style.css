@@ -1,0 +1,1356 @@
+.CV-LECHEVALIER {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 594px;
+    min-height: 842px;
+  }
+  
+  .CV-LECHEVALIER .aside {
+    position: relative;
+    width: 176px;
+    height: 842px;
+    overflow: hidden;
+  }
+  
+  .CV-LECHEVALIER .overlap {
+    position: relative;
+    width: 177px;
+    height: 845px;
+    left: -1px;
+  }
+  
+  .CV-LECHEVALIER .background {
+    position: absolute;
+    width: 176px;
+    height: 842px;
+    top: 0;
+    left: 1px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .CV-LECHEVALIER .rectangle {
+    width: 104px;
+    height: 106px;
+    top: 9px;
+    left: 120px;
+    background-color: var(--statusinfo);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .div {
+    width: 66px;
+    height: 106px;
+    top: -39px;
+    left: 0;
+    background-color: var(--secondarydefault);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .rectangle-2 {
+    width: 78px;
+    height: 87px;
+    top: 116px;
+    left: 87px;
+    background-color: var(--statussuccess);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .overlap-group {
+    position: absolute;
+    width: 221px;
+    height: 245px;
+    top: 636px;
+    left: 15px;
+  }
+  
+  .CV-LECHEVALIER .overlap-group-2 {
+    position: absolute;
+    width: 189px;
+    height: 175px;
+    top: 0;
+    left: 0;
+  }
+  
+  .CV-LECHEVALIER .rectangle-3 {
+    width: 117px;
+    height: 100px;
+    top: 0;
+    left: 72px;
+    background-color: var(--statusinfo);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .rectangle-4 {
+    width: 78px;
+    height: 113px;
+    top: 62px;
+    left: 0;
+    background-color: var(--statussuccess);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .rectangle-5 {
+    width: 102px;
+    height: 113px;
+    top: 132px;
+    left: 119px;
+    background-color: var(--primarydefault);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .rectangle-6 {
+    width: 84px;
+    height: 183px;
+    top: 283px;
+    left: 120px;
+    background-color: var(--secondarydefault);
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(64px);
+    opacity: 0.1;
+    box-shadow: var(--blur-large);
+  }
+  
+  .CV-LECHEVALIER .content {
+    flex-direction: column;
+    width: 176px;
+    height: 842px;
+    gap: 16px;
+    padding: 24px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .CV-LECHEVALIER .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .unsplash-tmgqmxoglsm {
+    position: relative;
+    width: 256px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 0px 4px 4px 0px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  }
+  
+  .CV-LECHEVALIER .container {
+    flex-direction: column;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .CV-LECHEVALIER .header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--heading-heading-1-bold-font-family);
+    font-weight: var(--heading-heading-1-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--heading-heading-1-bold-font-size);
+    letter-spacing: var(--heading-heading-1-bold-letter-spacing);
+    line-height: var(--heading-heading-1-bold-line-height);
+    font-style: var(--heading-heading-1-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .role {
+    position: relative;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgb(163.78, 119.82, 232.08) 0%, rgb(81, 108, 247) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: var(--heading-heading-2-bold-font-family);
+    font-weight: var(--heading-heading-2-bold-font-weight);
+    color: transparent;
+    font-size: var(--heading-heading-2-bold-font-size);
+    letter-spacing: var(--heading-heading-2-bold-letter-spacing);
+    line-height: var(--heading-heading-2-bold-line-height);
+    font-style: var(--heading-heading-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-right: -3px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--graydark);
+    font-size: 9px;
+    letter-spacing: 0.18px;
+    line-height: 12px;
+  }
+  
+  .CV-LECHEVALIER .edit-double-quotes-l {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-right: -15px;
+  }
+  
+  .CV-LECHEVALIER .wrap {
+    position: relative;
+    flex: 0 0 auto;
+    height: 11px;
+    margin-right: -26.83px;
+  }
+  
+  .CV-LECHEVALIER .divider {
+    height: 0.5px;
+    align-self: stretch;
+  }
+  
+  .CV-LECHEVALIER .div-3 {
+    flex-direction: column;
+    gap: 12px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .CV-LECHEVALIER .div-4 {
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .CV-LECHEVALIER .featured-icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: var(--graylightest);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  
+  .CV-LECHEVALIER .img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: 3px;
+  }
+  
+  .CV-LECHEVALIER .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .CV-LECHEVALIER .subtitle {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-caption-1-font-family);
+    font-weight: var(--body-caption-1-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-caption-1-font-size);
+    letter-spacing: var(--body-caption-1-letter-spacing);
+    line-height: var(--body-caption-1-line-height);
+    font-style: var(--body-caption-1-font-style);
+  }
+  
+  .CV-LECHEVALIER .subtitle-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--graydark);
+    font-size: var(--body-body-2-bold-font-size);
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .social-icon {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .CV-LECHEVALIER .social-icon-2 {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--Social-Linkedin, #0077B5);
+    
+    /* Shadow/sm */
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    
+  }
+  
+  .CV-LECHEVALIER .subtitle-3 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--graydark);
+    font-size: var(--body-body-2-bold-font-size);
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .flag {
+    position: relative;
+    width: 16px;
+    height: 12px;
+  }
+  
+  .CV-LECHEVALIER .subtitle-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--graydark);
+    font-size: var(--body-body-2-bold-font-size);
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .flag-2 {
+    background-image: url(./img/england.svg);
+    background-size: 100% 100%;
+    position: relative;
+    width: 16px;
+    height: 12px;
+  }
+  
+  .CV-LECHEVALIER .flag-3 {
+    background-image: url(./img/spain.svg);
+    background-size: 100% 100%;
+    position: relative;
+    width: 16px;
+    height: 12px;
+  }
+  
+  .CV-LECHEVALIER .content-wrapper {
+    height: 842px;
+    padding: 32px 24px 32px 16px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .CV-LECHEVALIER .content-2 {
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .CV-LECHEVALIER .div-5 {
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .CV-LECHEVALIER .step-icon-wrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .step-icon-base {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: var(--white);
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: var(--elevation-light);
+  }
+  
+  .CV-LECHEVALIER .misc-dot-l-wrapper {
+    position: relative;
+    height: 16px;
+    background-color: var(--white);
+  }
+  
+  .CV-LECHEVALIER .divider-2 {
+    position: relative;
+    flex: 1;
+    width: 1px;
+    flex-grow: 1;
+    border: 1px solid;
+    border-color: #e2e6ed;
+  }
+  
+  .CV-LECHEVALIER .div-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 0px 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .CV-LECHEVALIER .title {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--heading-heading-2-bold-font-family);
+    font-weight: var(--heading-heading-2-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--heading-heading-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--heading-heading-2-bold-letter-spacing);
+    line-height: var(--heading-heading-2-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-heading-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .experience {
+    background-color: var(--primarylightest);
+    border-radius: 4px 4px 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .logo-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url(./img/vector-4.svg);
+    background-size: 100% 100%;
+  }
+  
+  .CV-LECHEVALIER .img-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+  }
+  
+  .CV-LECHEVALIER .div-7 {
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .CV-LECHEVALIER .subtitle-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-body-2-font-family);
+    font-weight: var(--body-body-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-body-2-font-size);
+    letter-spacing: var(--body-body-2-letter-spacing);
+    line-height: var(--body-body-2-line-height);
+    white-space: nowrap;
+    font-style: var(--body-body-2-font-style);
+  }
+  
+  .CV-LECHEVALIER .title-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-body-1-bold-font-family);
+    font-weight: var(--body-body-1-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--body-body-1-bold-font-size);
+    letter-spacing: var(--body-body-1-bold-letter-spacing);
+    line-height: var(--body-body-1-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-body-1-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .date-and-place {
+    gap: 4px;
+    align-self: stretch;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .badge {
+    display: inline-flex;
+    flex-direction: column;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px;
+    position: relative;
+    background-color: var(--primarylighter);
+    border-radius: 2px;
+  }
+  
+  .CV-LECHEVALIER .title-3 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-caption-1-font-family);
+    font-weight: var(--body-caption-1-font-weight);
+    color: var(--primarydefault);
+    font-size: var(--body-caption-1-font-size);
+    text-align: center;
+    letter-spacing: var(--body-caption-1-letter-spacing);
+    line-height: var(--body-caption-1-line-height);
+    white-space: nowrap;
+    font-style: var(--body-caption-1-font-style);
+  }
+  
+  .CV-LECHEVALIER .title-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .location {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .basic-location {
+    position: relative;
+    width: 6px;
+    height: 6px;
+  }
+  
+  .CV-LECHEVALIER .text-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-caption-2-font-family);
+    font-weight: var(--body-caption-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-caption-2-font-size);
+    letter-spacing: var(--body-caption-2-letter-spacing);
+    line-height: var(--body-caption-2-line-height);
+    font-style: var(--body-caption-2-font-style);
+  }
+  
+  .CV-LECHEVALIER .experience-2 {
+    background-color: var(--graylightest-2);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .overlap-group-wrapper {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--shadow-xs);
+    background-image: url(./img/location.svg);
+    background-size: 100% 100%;
+  }
+  
+  .CV-LECHEVALIER .capture-wrapper {
+    position: relative;
+    height: 20px;
+    background-image: url(./img/capture-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .CV-LECHEVALIER .subtitle-6 {
+    position: relative;
+    width: 152px;
+    margin-top: -1px;
+    margin-right: -4px;
+    font-family: var(--body-body-2-font-family);
+    font-weight: var(--body-body-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-body-2-font-size);
+    letter-spacing: var(--body-body-2-letter-spacing);
+    line-height: var(--body-body-2-line-height);
+    font-style: var(--body-body-2-font-style);
+  }
+  
+  .CV-LECHEVALIER .date {
+    margin-top: -0.5px;
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-caption-1-font-family);
+    font-weight: var(--body-caption-1-font-weight);
+    color: var(--graydark);
+    font-size: var(--body-caption-1-font-size);
+    letter-spacing: var(--body-caption-1-letter-spacing);
+    line-height: var(--body-caption-1-line-height);
+    white-space: nowrap;
+    font-style: var(--body-caption-1-font-style);
+  }
+  
+  .CV-LECHEVALIER .date-and-place-2 {
+    gap: 2px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .p {
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-caption-1-font-family);
+    font-weight: var(--body-caption-1-font-weight);
+    color: var(--graydark);
+    font-size: var(--body-caption-1-font-size);
+    letter-spacing: var(--body-caption-1-letter-spacing);
+    line-height: var(--body-caption-1-line-height);
+    white-space: nowrap;
+    font-style: var(--body-caption-1-font-style);
+  }
+  
+  .CV-LECHEVALIER .r-wrapper {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--shadow-xs);
+    background-image: url(./img/vector-3.svg);
+    background-size: 100% 100%;
+  }
+  
+  .CV-LECHEVALIER .r {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 0;
+    left: 0;
+  }
+  
+  .CV-LECHEVALIER .subtitle-7 {
+    position: relative;
+    width: 152px;
+    margin-top: -1px;
+    font-family: var(--body-body-2-font-family);
+    font-weight: var(--body-body-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-body-2-font-size);
+    letter-spacing: var(--body-body-2-letter-spacing);
+    line-height: var(--body-body-2-line-height);
+    font-style: var(--body-body-2-font-style);
+  }
+  
+  .CV-LECHEVALIER .date-and-place-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .img-wrapper {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--shadow-xs);
+    background-image: url(./img/vector-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .CV-LECHEVALIER .r-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .CV-LECHEVALIER .div-8 {
+    align-items: flex-start;
+    flex: 0 0 auto;
+    display: flex;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .CV-LECHEVALIER .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 8px 12px;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 4px 0px 0px 4px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .logo {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+  }
+  
+  .CV-LECHEVALIER .subtitle-8 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-caption-1-bold-font-family);
+    font-weight: var(--body-caption-1-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--body-caption-1-bold-font-size);
+    letter-spacing: var(--body-caption-1-bold-letter-spacing);
+    line-height: var(--body-caption-1-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-caption-1-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .text-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .title-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--body-body-2-bold-font-size);
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .subtitle-9 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-caption-2-font-family);
+    font-weight: var(--body-caption-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-caption-2-font-size);
+    text-align: center;
+    letter-spacing: var(--body-caption-2-letter-spacing);
+    line-height: var(--body-caption-2-line-height);
+    font-style: var(--body-caption-2-font-style);
+  }
+  
+  .CV-LECHEVALIER .card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 0px 4px 4px 0px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .title-5 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--heading-heading-2-bold-font-family);
+    font-weight: var(--heading-heading-2-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--heading-heading-2-bold-font-size);
+    letter-spacing: var(--heading-heading-2-bold-letter-spacing);
+    line-height: var(--heading-heading-2-bold-line-height);
+    font-style: var(--heading-heading-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .content-3 {
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .CV-LECHEVALIER .section {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .CV-LECHEVALIER .header-2 {
+    align-items: center;
+    gap: 4px;
+    padding: 0px 0px 4px;
+    border-radius: 4px 0px 0px 0px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .icon-wrapper {
+    background-color: var(--secondarylighter);
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  
+  .CV-LECHEVALIER .icon {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .CV-LECHEVALIER .category {
+    width: 56px;
+    position: relative;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--body-body-2-bold-font-size);
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .row {
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .CV-LECHEVALIER .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 8px;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 4px 0px 0px 0px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -6.67px;
+    margin-bottom: -4.67px;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--secondarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 8px 8px 0px;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 0px 4px 0px 0px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .card-5 {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 8px 2px;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-5 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--secondarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .divider-3 {
+    position: relative;
+    align-self: stretch;
+    width: 1px;
+    border: 1px solid;
+    border-color: #0000000d;
+  }
+  
+  .CV-LECHEVALIER .card-6 {
+    display: flex;
+    height: 40.67px;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 2px;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 0px 0px 0px 4px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-6 {
+    position: relative;
+    flex: 1;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--secondarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .card-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 8px 8px 0px;
+    align-self: stretch;
+    flex: 0 0 auto;
+    border-radius: 0px 0px 4px 0px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-7 {
+    position: relative;
+    flex: 1;
+    width: 51.33px;
+    margin-top: -1px;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--secondarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .featured-icon-2 {
+    background-color: var(--primarylighter);
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  
+  .CV-LECHEVALIER .category-2 {
+    width: fit-content;
+    white-space: nowrap;
+    position: relative;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--graydarker);
+    font-size: var(--body-body-2-bold-font-size);
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .stack {
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .CV-LECHEVALIER .card-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 8px;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 4px 0px 0px 0px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-8 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--primarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .card-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 8px;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    border-radius: 0px 4px 0px 0px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .card-10 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-9 {
+    position: relative;
+    flex: 1;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--primarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .divider-4 {
+    position: relative;
+    align-self: stretch;
+    width: 1px;
+    border: 1px solid;
+    border-color: #e2e6ed;
+  }
+  
+  .CV-LECHEVALIER .card-11 {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 8px 2px;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 0px 0px 4px 4px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .text-10 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-body-2-bold-font-family);
+    font-weight: var(--body-body-2-bold-font-weight);
+    color: var(--primarydefault);
+    font-size: var(--body-body-2-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-body-2-bold-letter-spacing);
+    line-height: var(--body-body-2-bold-line-height);
+    font-style: var(--body-body-2-bold-font-style);
+  }
+  
+  .CV-LECHEVALIER .step-icon-base-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    height: 24px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CV-LECHEVALIER .card-12 {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 8px 12px;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 4px 0px 0px 4px;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .subtitle-10 {
+    position: relative;
+    width: 158px;
+    height: 36px;
+    margin-right: -11px;
+    font-family: var(--body-caption-2-font-family);
+    font-weight: var(--body-caption-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-caption-2-font-size);
+    letter-spacing: var(--body-caption-2-letter-spacing);
+    line-height: var(--body-caption-2-line-height);
+    font-style: var(--body-caption-2-font-style);
+  }
+  
+  .CV-LECHEVALIER .card-13 {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+    background-color: var(--graylightest-2);
+  }
+  
+  .CV-LECHEVALIER .subtitle-11 {
+    position: relative;
+    width: 156px;
+    margin-right: -9px;
+    font-family: var(--body-caption-2-font-family);
+    font-weight: var(--body-caption-2-font-weight);
+    color: var(--graydefault);
+    font-size: var(--body-caption-2-font-size);
+    letter-spacing: var(--body-caption-2-letter-spacing);
+    line-height: var(--body-caption-2-line-height);
+    font-style: var(--body-caption-2-font-style);
+  }

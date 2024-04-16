@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" fill="none" viewBox="0 0 16 13">
+  <g clip-path="url(#a)">
+    <path fill="#22438B" d="M15.556-.5H.444c-.981 0-1.777.836-1.777 1.867v10.266c0 1.031.796 1.867 1.777 1.867h15.112c.981 0 1.777-.836 1.777-1.867V1.367c0-1.031-.796-1.867-1.777-1.867Z"/>
+    <path fill="#fff" fill-rule="evenodd" d="m1.333.433-1.8.025.023 1.842L14.65 12.593l1.81-.035-.033-1.83L1.333.432Z" clip-rule="evenodd"/>
+    <path fill="#C7152A" fill-rule="evenodd" d="m.444.433-.888.934 16 11.2.888-.934-16-11.2Z" clip-rule="evenodd"/>
+    <path fill="#fff" fill-rule="evenodd" d="M14.667.433h1.777V2.3S6 9.203 1.35 12.593c-.056.04-1.776.003-1.776.003l-.137-1.775L14.666.433Z" clip-rule="evenodd"/>
+    <path fill="#C7152A" fill-rule="evenodd" d="m15.594.407.85.96-16 11.2-.888-.934L15.594.407Z" clip-rule="evenodd"/>
+    <path fill="#fff" fill-rule="evenodd" d="M5.778.433h4.444v3.734h6.222v4.666h-6.222v3.734H5.778V8.833H-.444V4.167h6.222V.433Z" clip-rule="evenodd"/>
+    <path fill="#C7152A" fill-rule="evenodd" d="M6.667.433h2.666V5.1h7.111v2.8h-7.11v4.667H6.666V7.9h-7.11V5.1h7.11V.433Z" clip-rule="evenodd"/>
+    <path stroke="#000" stroke-opacity=".1" d="M15.556-.033H.444c-.736 0-1.333.626-1.333 1.4v10.266c0 .774.597 1.4 1.333 1.4h15.112c.736 0 1.333-.627 1.333-1.4V1.367c0-.774-.597-1.4-1.333-1.4Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#fff" d="M-1.333-.5h18.667v14H-1.333z"/>
+    </clipPath>
+  </defs>
+</svg>
