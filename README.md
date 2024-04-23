@@ -15,10 +15,15 @@ Ce projet contient les éléments suivants :
 - **global.css**: Un fichier CSS contenant des styles globaux pour le site.
 - **styleguide.css**: Un fichier CSS contenant les styles spécifiques pour un guide de style, si applicable.
 - **img/**: Ce répertoire contient les images ou autres ressources utilisées dans le CV.
+- **lettre de motivation/**: Ce répertoire contient les fichiers relatifs à la lettre de motivation.
 
 ## Comment visualiser le CV
 
 Vous pouvez consulter mon CV en ligne en suivant ce lien : [https://killianlch.github.io/CV/](https://killianlch.github.io/CV/).
+
+## Lettre de Motivation
+
+La lettre de motivation est désormais intégrée au projet. Vous pouvez la consulter dans le répertoire "lettre de motivation".
 
 ## Comment contribuer
 
