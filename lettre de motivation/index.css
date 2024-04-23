@@ -1,0 +1,375 @@
+.lettredemotivation-lechevalier-killian-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-lettredemotivation-lechevalier-killian {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-default-white);
+}
+.lettredemotivation-lechevalier-killian-header {
+  gap: 16px;
+  width: 594px;
+  height: 160px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.lettredemotivation-lechevalier-killian-background {
+  top: 0px;
+  left: 0px;
+  width: 594px;
+  height: 160px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.lettredemotivation-lechevalier-killian-rectangle {
+  top: -76px;
+  left: 204px;
+  width: 182px;
+  height: 106px;
+  opacity: 0.10;
+  position: absolute;
+  border-radius: 100px;
+}
+.lettredemotivation-lechevalier-killian-rectangle1 {
+  top: 79px;
+  left: 204px;
+  width: 194px;
+  height: 201px;
+  opacity: 0.10;
+  position: absolute;
+  border-radius: 100px;
+}
+.lettredemotivation-lechevalier-killian-rectangle2 {
+  top: -81px;
+  left: 463px;
+  width: 198px;
+  height: 100px;
+  opacity: 0.10;
+  position: absolute;
+  border-radius: 100px;
+}
+.lettredemotivation-lechevalier-killian-rectangle3 {
+  top: -19px;
+  left: 330px;
+  width: 139px;
+  height: 113px;
+  opacity: 0.10;
+  position: absolute;
+  border-radius: 100px;
+}
+.lettredemotivation-lechevalier-killian-rectangle4 {
+  top: 51px;
+  left: 510px;
+  width: 102px;
+  height: 113px;
+  opacity: 0.10;
+  position: absolute;
+  border-radius: 100px;
+}
+.lettredemotivation-lechevalier-killian-rectangle5 {
+  top: -58px;
+  left: -128px;
+  width: 204px;
+  height: 183px;
+  opacity: 0.10;
+  position: absolute;
+  border-radius: 100px;
+}
+.lettredemotivation-lechevalier-killian-content {
+  gap: 24px;
+  top: 48px;
+  left: 0px;
+  width: 594px;
+  display: flex;
+  padding: 0 72px;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.lettredemotivation-lechevalier-killian-header1 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lettredemotivation-lechevalier-killian-text {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.lettredemotivation-lechevalier-killian-text01 {
+  color: var(--dl-color-gray-darker);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.lettredemotivation-lechevalier-killian-row {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.lettredemotivation-lechevalier-killian-column {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.lettredemotivation-lechevalier-killian-featuredicon {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  justify-content: center;
+}
+.lettredemotivation-lechevalier-killian-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.lettredemotivation-lechevalier-killian-basicmail {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.lettredemotivation-lechevalier-killian-text03 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-text04 {
+  color: var(--dl-color-gray-default);
+  height: auto;
+  text-align: left;
+  line-height: 10px;
+}
+.lettredemotivation-lechevalier-killian-text06 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  text-align: left;
+  line-height: 12px;
+}
+.lettredemotivation-lechevalier-killian-column1 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.lettredemotivation-lechevalier-killian-featuredicon1 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  justify-content: center;
+}
+.lettredemotivation-lechevalier-killian-rectangle7 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.lettredemotivation-lechevalier-killian-basicphone {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.lettredemotivation-lechevalier-killian-text08 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-text09 {
+  color: var(--dl-color-gray-default);
+  height: auto;
+  text-align: left;
+  line-height: 10px;
+}
+.lettredemotivation-lechevalier-killian-text11 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  text-align: left;
+  line-height: 12px;
+}
+.lettredemotivation-lechevalier-killian-column2 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.lettredemotivation-lechevalier-killian-featuredicon2 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  justify-content: center;
+}
+.lettredemotivation-lechevalier-killian-rectangle8 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.lettredemotivation-lechevalier-killian-basiclocation {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.lettredemotivation-lechevalier-killian-text13 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-text14 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-text15 {
+  color: var(--dl-color-gray-default);
+  height: auto;
+  text-align: left;
+  line-height: 10px;
+}
+.lettredemotivation-lechevalier-killian-text17 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  text-align: left;
+  line-height: 12px;
+}
+.lettredemotivation-lechevalier-killian-content1 {
+  gap: 24px;
+  display: flex;
+  padding: 40px 72px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-frame1 {
+  gap: 8px;
+  width: 434px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.lettredemotivation-lechevalier-killian-text19 {
+  color: var(--dl-color-gray-darker);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text21 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text23 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text25 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text27 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text29 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text31 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text33 {
+  color: var(--dl-color-gray-dark);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-text35 {
+  color: var(--dl-color-gray-darker);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 16px;
+}
+.lettredemotivation-lechevalier-killian-signature {
+  width: 76px;
+  height: 40px;
+}
